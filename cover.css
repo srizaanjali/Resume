@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+h2{
+	font-size: 190%;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px !important;
+}
+
+/*Section 0: About Me*/
+
+.about-me{
+  margin: 10px;
+  background: #00fa9a;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+/*Section 1: Personal Details*/
+
+.pd{
+  margin: 10px;
+  margin-bottom: -1.75%;
+  background: #ffd700;
+  color:white;
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+ .pdlist ul{
+   list-style: none;
+   margin:0;
+ }
+ .pdlist ul li{
+   margin: 0 0 10px;
+   padding:0;
+ }
+ .pdlist ul li p:nth-child(2){
+   float: right;
+   position: relative;
+   top: -25px;
+ }
+
+/*Section 2: Educational Details*/
+
+ .ed::after {
+   margin: 10px;
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.ed{
+  margin-top:1.5%;
+  margin-left: 55%;
+  background-color: #db7093;
+  color: white;
+}
+.ed ul{
+  list-style: none;
+  margin: 0;
+}
+.ed ul li{
+  margin: 0 0 10px;
+  padding:0;
+}
+.ed ul li p:nth-child(2){
+  float: right;
+  position: relative;
+  top: -25px;
+}
+
+/*Section 3: Skills*/
+
+.skills{
+  margin:10px;
+  float: center;
+   padding: 15px;
+   background: #ffdab9;
+}
+.skill_box{
+  width: 98%;
+  margin: 20px 0;
+}
+.skill_box p{
+  margin: 0 0 10px;
+  padding:0;
+}
+.skill_box p:nth-child(2){
+  float: right;
+  position: relative;
+  top: -25px;
+}
+.skill{
+  padding: 2px;
+  background-color: #dcdcdc;
+}
+.skill_level{
+  background: #f4a460;
+  width: 50%;
+}
+
+/*Section 4: Declaration*/
+
+.dec{
+  margin: 10px;
+background: #add8e6;
+  font-size: 20px;
+  padding: 20px;
+      text-align: center;
+      color: white;
+}
